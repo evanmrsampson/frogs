@@ -1,0 +1,78 @@
+title: start
+---
+<<setSpeaker MainFrog>>
+Thanks for coming to my birthday!
+We usually don't let humans come to our gatherings.
+You know because they smell like sadness.
+<<stopTalking MainFrog>>
+
+<<wait 2.5>>
+
+<<setSpeaker MainFrog>>
+u smell fine tho srry
+<<stopTalking MainFrog>>
+
+<<wait 1.0>>
+
+<<setSpeaker Frog1>>
+I can't even tell how bad you smell from here
+so it's fine
+<<stopTalking Frog1>>
+
+<<wait 1.5>>
+
+<<setSpeaker Frog2>>
+Let's not go any further down this road.
+<<stopTalking Frog2>>
+<<setSpeaker MainFrog>>
+yeah agreed
+<<stopTalking MainFrog>>
+<<setSpeaker Frog1>>
+... i said it was fine
+<<stopTalking Frog1>>
+<<setSpeaker Frog2>>
+I think it's time for that cake
+<<stopTalking Frog2>>
+<<drop Cake>>
+
+<<wait 2.0>>
+<<setSpeaker MainFrog>>
+Oh man you brought a human-sized cake!
+but we generally don't celebrate with cake
+<<stopTalking MainFrog>>
+<<wait 2.5>>
+<<setSpeaker Frog1>>
+What are you doing birthday frog?
+<<stopTalking Frog1>>
+<<setSpeaker MainFrog>>
+Enjoying my cake of course!
+<<stopTalking MainFrog>>
+<<wait 2.0>>
+<<setSpeaker Frog2>>
+uhhhh I think you're supposed to blow out the candles.
+<<stopTalking Frog2>>
+<<setSpeaker MainFrog>>
+I KNOW THAT
+<<wait 0.5>>
+but i would appreciate if y'all would tell me when.
+<<stopTalking MainFrog>>
+<<startMiniGame GameMaster>>
+===
+
+title: end
+---
+<<setSpeaker MainFrog>>
+YAAAAYY
+Maybe you sad stinky folks can come by more often!!
+<<stopTalking MainFrog>>
+
+<<setSpeaker Frog2>>
+Dude, chill
+<<stopTalking Frog2>>
+
+<<setSpeaker MainFrog>>
+sorryyyyy, come back soon!!
+<<stopTalking MainFrog>>
+<<wait 1.0>>
+<<fadeOut Square>>
+===
